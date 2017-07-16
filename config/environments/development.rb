@@ -1,16 +1,17 @@
 Rails.application.configure do
-  # Settings specified here will take precedence over those in config/application.rb.
+  # Settings specified here will take precedence over
+  # those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
-  #for webpack
-  config.x.webpacker[:dev_server_host] = "http://127.0.0.1:8080"
-  # We are ready to run our servers now. In one terminal, run bundle exec rails server to start Rails server and in the other one run:
+  # for webpack
+  config.x.webpacker[:dev_server_host] = 'http://127.0.0.1:8080'
+  # We are ready to run our servers now. In one terminal, run bundle exec rails
+  # server to start Rails server and in the other one run:
   # ./bin/webpack-dev-server --host 127.0.0.1
-
 
   # Do not eager load code on boot.
   config.eager_load = false
@@ -31,6 +32,8 @@ Rails.application.configure do
 
     config.cache_store = :null_store
   end
+
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
