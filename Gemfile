@@ -8,6 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'devise'
+gem 'pry'
+gem 'pry-rails'
 gem 'rails', '~> 5.1.1'
 gem 'rails_admin', '~> 1.2'
 gem 'rubocop'
