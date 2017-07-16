@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+https://medium.com/@hpux/rails-5-1-loves-javascript-a1d84d5318b
