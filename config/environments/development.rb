@@ -6,6 +6,11 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
+  # to enable javascript_pack_tag to load assets from webpack-dev-server:
+  config.x.webpacker[:dev_server_host] = "http://127.0.0.1:8080"
+  # run bundle exec rails server to start rails server in one terminal window and in the other run './bin/webpack-dev-server --host 127.0.0.1'
+  #If you open your browser and navigate to http://localhost:3000/pages you should see Hello React on your screen.
+
   # Do not eager load code on boot.
   config.eager_load = false
 
