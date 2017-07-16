@@ -6,6 +6,12 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
+  #for webpack
+  config.x.webpacker[:dev_server_host] = "http://127.0.0.1:8080"
+  # We are ready to run our servers now. In one terminal, run bundle exec rails server to start Rails server and in the other one run:
+  # ./bin/webpack-dev-server --host 127.0.0.1
+
+
   # Do not eager load code on boot.
   config.eager_load = false
 
