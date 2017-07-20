@@ -16,9 +16,8 @@ import ReactDOM from 'react-dom'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <h1>Liz & Michael</h1>
+    <h1>Liz & Michael</h1>,
     // <h6>date</h6>
-
 
     document.body.appendChild(document.createElement('div')),
   )
