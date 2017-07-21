@@ -1,28 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Website to house information about Liz and Michael's wedding. Still a work in progress.
 
-Things you may want to cover:
+TODO
+----
+- Set up "our story timeline"
+- Set up RSVP system
+- Set up mail server
 
-* Ruby version
 
-* System dependencies
+Ruby version - 2.4.1
+--------------------
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+Webpack Info
+------------
 
 - run rails s in one terminal and ./bin/webpack-dev-server --host 127.0.0.1 in the other to get react to load
 
