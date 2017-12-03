@@ -1,22 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import PropTypes from 'prop-types'
-
-// const Hello = props => (
-//   <div>Hello {props.name}!</div>
-// )
-//
-// Hello.defaultProps = {
-//   name: 'David'
-// }
-//
-// Hello.propTypes = {
-//   name: PropTypes.string
-// }
+import SaveDate from './SaveDate'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <h1>Liz & Michael</h1>,
+    <div id = "main-page">
+      <SaveDate />
+    </div>,
     // <h6>date</h6>
 
     document.body.appendChild(document.createElement('div')),
