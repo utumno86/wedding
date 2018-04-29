@@ -7,13 +7,14 @@ const SaveDatePage = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
     width: 100vw;
+    height: 100vh;
 `;
 
 const Box = styled.div`
     align-items: center;
     background-color: #ffffff;
-    opacity: 0.5;
     border-radius: 5px;
     border: 2px solid #4928A0;
     color: #4928A0;
@@ -22,6 +23,7 @@ const Box = styled.div`
     font-family: 'Lato', sans-serif;
     justify-content: center;
     margin: auto;
+    opacity: 0.5;
     width: 70%;
 `;
 
@@ -38,12 +40,6 @@ const Date = styled.h1`
 class SaveDate extends Component {
     render() {
         return (
-            // <div id='saveDate'>
-            //     <h1 className='tagline'> There's Magic in the Night </h1>
-            //     <h1>Liz and Michael</h1>
-            //     <h1 className='date'>December 22, 2018</h1>
-            //     <h1 className='date'> St. Pete Shuffle Board Club</h1>
-            // </div>
             <SaveDatePage>
                 <Box>
                     <Tagline>There's Magic in the Night</Tagline>
