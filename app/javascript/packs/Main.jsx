@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link, browserHistory } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import styled from 'styled-components'
 
 // import Navbar from './Navbar'
@@ -33,7 +33,7 @@ const NavListItem = styled.li`
 class Main extends Component {
     render() {
         return (
-            <Router history={browserHistory}>
+            <Router>
                 <div>
                     <Navbar>
                         <NavListItem>
@@ -55,7 +55,7 @@ class Main extends Component {
                     <Route exact path="/" component={SaveDate} />
                     <Route path="/about" component={About} />
                     <Route path="/PlacesToStay" component={PlacesToStay} /> 
-                    <Route exactPath ="/ThingsToDo" component={ThingsToDo} />
+                    <Route path ="/ThingsToDo" component={ThingsToDo} />
                     {/* <Route exact path="/Registry" component={Registry} /> */}
                 </div>
           </Router>

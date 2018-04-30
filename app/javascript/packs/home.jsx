@@ -6,12 +6,11 @@ import Main from './Main'
 
 const Home = styled.div`
   background-color: #4928A0
-  height: 100vh
-  width: 100vw
+  height: 100%
+  width: 100%
   display: flex
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0;
+  padding: 0;
 `;
 
 document.addEventListener('DOMContentLoaded', () => {

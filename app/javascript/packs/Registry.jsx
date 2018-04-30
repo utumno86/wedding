@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 
 const RegistryPage = styled.div`
-    background-color: #4928A0;
     display: flex;
     width: 100vw;
     height: 100vh;

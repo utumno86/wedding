@@ -2,13 +2,13 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 
 const PlacesToStayPage = styled.div`
-    background-color: #4928A0;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
+    background-image: url("/assets/colorful-grunge-texture-3.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+    display: flex;
+    margin: 0;
+    padding: 0;
 `;
 
 const Box = styled.div`
@@ -21,19 +21,34 @@ const Box = styled.div`
     flex-direction: column;
     font-family: 'Lato', sans-serif;
     justify-content: center;
-    margin: auto;
-    padding: 0 1em 0 1em;
+    margin: 1em auto;
+    padding: 1em;
     opacity: 0.5;
-    width: 70%;
+    width: 75%;
 `;
 
 const Hotel = styled.h2`
-    font-size: 2em;
 `;
 
 const Header = styled.h1`
     font-family: 'Grand Hotel', cursive;
     font-size: 3em;
+`;
+const HeaderWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+`;
+
+const HeaderImage = styled.img`
+    width: 10%;
+    height: 10%;
+    padding: 0.5em;
+`;
+
+const HeaderImage2 = HeaderImage.extend`
+    transform: scaleX(-1);
 `;
 
 
@@ -42,7 +57,11 @@ class PlacesToStay extends Component {
         return (
             <PlacesToStayPage>
                 <Box>
-                    <Header>Places to stay</Header>
+                    <HeaderWrapper>
+                        <HeaderImage src="/assets/06.png" />
+                        <Header>Places to stay</Header>
+                        <HeaderImage2 src="/assets/06.png" />
+                    </HeaderWrapper>
                     <Hotel>
                         <a href="https://hollanderhotel.com/">The Hollander Hotel </a>
                     </Hotel>
@@ -61,9 +80,9 @@ class PlacesToStay extends Component {
                     <p>
                         The Courtyard Marriot is across the street from the St Pete Shuffleboard Club.  We found it was a bit more expensive than The Hollander and Avalon, but we still recommend it.
                     </p>
-                    <Hotel>
+                    {/* <Hotel>
                         Other Hotels and Trolley Service
-                    </Hotel>
+                    </Hotel> */}
                     <p>
                         There are many other hotels and bed and breakfasts in Downtown St Pete so feel free to look around.  We will be providing a trolley to help guests get to the Shuffleboard Club from the Hollander.  Let us know if you book elsewhere and we can see about arranging for the Trolley to pick up guests from another location as well.  
                     </p>

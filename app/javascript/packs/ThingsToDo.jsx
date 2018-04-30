@@ -2,11 +2,6 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 
 const ThingsToDoPage = styled.div`
-    background-color: #4928A0;
-    background-image: url("/assets/couple-bw.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     width: 100vw;
     height: 100vh;
