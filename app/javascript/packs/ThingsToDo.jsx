@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
 
-const SaveDatePage = styled.div`
+const ThingsToDoPage = styled.div`
     background-color: #4928A0;
     background-image: url("/assets/couple-bw.jpg");
     background-position: center;
@@ -23,39 +23,28 @@ const Box = styled.div`
     font-family: 'Lato', sans-serif;
     justify-content: center;
     margin: auto;
-    opacity: 0.75;
+    opacity: 0.5;
     width: 70%;
 `;
 
 const Tagline = styled.h1`
     text-align: center;
     font-size: 3em;
-    opacity: 1;
 `;
 
 const Date = styled.h1`
     font-family: 'Grand Hotel', cursive;
-    opacity: 1;
-`;
-
-const Names = styled.h1`
-    opacity: 1;
 `;
 
 
-class SaveDate extends Component {
+class ThingsToDo extends Component {
     render() {
         return (
-            <SaveDatePage>
-                <Box>
-                    <Tagline>There's Magic in the Night</Tagline>
-                    <Names>Liz and Michael</Names>
-                    <Date>December 22, 2018</Date>
-                    <Date>St. Pete ShuffleBoard Club</Date>
-                </Box>
-            </SaveDatePage>
+            <ThingsToDoPage>
+                <h1>Things To Do</h1>
+            </ThingsToDoPage>
         )
     }
 }
 
-export default SaveDate
+export default ThingsToDo
