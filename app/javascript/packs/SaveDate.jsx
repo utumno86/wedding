@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 
 const SaveDatePage = styled.div`
-    background-image: url("/assets/couple-bw.jpg");
+    background-image: url("/assets/couple-bw1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

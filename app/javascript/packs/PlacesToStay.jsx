@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 
 const PlacesToStayPage = styled.div`
-    background-image: url("/assets/colorful-grunge-texture-3.jpg");
+    background-image: url("/assets/texture1.jpg");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
