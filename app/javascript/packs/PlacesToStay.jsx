@@ -80,11 +80,11 @@ class PlacesToStay extends Component {
                     <p>
                         The Courtyard Marriot is across the street from the St Pete Shuffleboard Club.  We found it was a bit more expensive than The Hollander and Avalon, but we still recommend it.
                     </p>
-                    {/* <Hotel>
+                    <Hotel>
                         Other Hotels and Trolley Service
-                    </Hotel> */}
+                    </Hotel>
                     <p>
-                        There are many other hotels and bed and breakfasts in Downtown St Pete so feel free to look around.  We will be providing a trolley to help guests get to the Shuffleboard Club from the Hollander.  Let us know if you book elsewhere and we can see about arranging for the Trolley to pick up guests from another location as well.  
+                        There are many other hotels and bed and breakfasts in Downtown St Pete so feel free to look around.  We will be providing a trolley to help guests get to the Shuffleboard Club from the Hollander.  Let us know if you book elsewhere and we can see about arranging for the trolley to pick up guests from another location as well.  
                     </p>
                 </Box>
             </PlacesToStayPage>
