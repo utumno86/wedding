@@ -7,20 +7,20 @@ const AboutPage = styled.div`
     height: 100vh;
 `;
 
-// const Box = styled.div`
-//     align-items: center;
-//     background-color: #ffffff;
-//     border-radius: 5px;
-//     border: 2px solid #4928A0;
-//     color: #4928A0;
-//     display: flex;
-//     flex-direction: column;
-//     font-family: 'Lato', sans-serif;
-//     justify-content: center;
-//     margin: auto;
-//     opacity: 0.5;
-//     width: 70%;
-// `;
+const Box = styled.div`
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #4928A0;
+    color: #4928A0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    margin: auto;
+    opacity: 0.5;
+    width: 70%;
+`;
 
 // const Tagline = styled.h1`
 //     text-align: center;
@@ -36,7 +36,13 @@ class About extends Component {
     render() {
         return (
             <AboutPage>
-                <h1>About us</h1>
+                <Box>
+                    <h1>About us</h1>
+                    <h2>How We Met - Michael</h2>
+                    <p>Story</p>
+                    <h2>How We Met - Liz</h2>
+                    <p>Story</p>
+                </Box>
             </AboutPage>
         )
     }
