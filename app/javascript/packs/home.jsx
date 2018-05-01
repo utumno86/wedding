@@ -4,10 +4,13 @@ import styled from 'styled-components'
 
 import Main from './Main'
 
+// background-color: #4928A0
+// background-image: url("/assets/texture1.jpg");
+// background-position: center;
+// background-repeat: repeat;
+// background-size: cover;
 const Home = styled.div`
-  background-color: #4928A0
-  height: 100%
-  width: 100%
+  background-color: #f6f6f6;
   display: flex
   margin: 0;
   padding: 0;

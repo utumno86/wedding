@@ -13,7 +13,7 @@ const SaveDatePage = styled.div`
 
 const Box = styled.div`
     align-items: center;
-    background-color: #ffffff;
+    background-color: #f6f6f6;
     border-radius: 5px;
     border: 2px solid #4928A0;
     color: #4928A0;

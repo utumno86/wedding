@@ -2,29 +2,25 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 
 const PlacesToStayPage = styled.div`
-    background-image: url("/assets/texture1.jpg");
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
     display: flex;
     margin: 0;
     padding: 0;
 `;
 
 const Box = styled.div`
-    align-items: center;
-    background-color: #ffffff;
-    border-radius: 5px;
-    border: 2px solid #4928A0;
-    color: #4928A0;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    justify-content: center;
-    margin: 1em auto;
-    padding: 1em;
-    opacity: 0.5;
-    width: 75%;
+  align-items: center;
+  background-color: #f6f6f6f6;
+  border-radius: 5px;
+  border: 2px solid #4928a0;
+  color: #4928a0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  margin: 1em auto;
+  padding: 1em;
+  opacity: 0.75;
+  width: 75%;
 `;
 
 const Hotel = styled.h2`

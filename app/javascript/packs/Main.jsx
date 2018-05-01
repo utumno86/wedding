@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import styled from 'styled-components'
 
-// import Navbar from './Navbar'
 import SaveDate from './SaveDate'
 import About from './About'
 import PlacesToStay from './PlacesToStay'
@@ -12,14 +11,15 @@ import Registry from './Registry'
 
 const Navbar = styled.ul`
     align-items: center;
-    color: #FFFFFF;
+    background-color: #4928a0;
+    color: #f6f6f6f6;
     display: flex;
     flex-direction: row;
     font-size: 15px;
     justify-content: space-around;
     list-style-type: none;
-    margin: 1em;
-    padding: 0 1em 0 1em;
+    margin: 0;
+    padding: 1em;
     text-decoration: none;
     width: 100%;
 `;
