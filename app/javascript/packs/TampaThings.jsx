@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const TampaSection = styled.div`
     justify-content: center;
-    margin: 3em;
-    width: 45%;
+    margin: 1em;
+    width: 30%;
 `;
 
 const Tagline = styled.h1`

@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 
 import TampaThings from "./TampaThings";
-import StPeteThing from "./StPeteThings";
+import StPeteThings from "./StPeteThings";
 
 const ToDoPage = styled.div`
     display: flex;
@@ -41,7 +41,9 @@ const HashTag = styled.span`
 `;
 
 const LowerBox = styled.div`
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
 `;
 
@@ -50,13 +52,14 @@ class ThingsToDo extends Component {
     render() {
         return <ToDoPage>
             <SkylineBox>
-                <Header>
-                  Things to do in the
-                  <HashTag> #OtherBayArea</HashTag>
-                </Header>
+              <Header>
+                Things to do in the
+                <HashTag> #OtherBayArea</HashTag>
+              </Header>
             </SkylineBox>
             <LowerBox>
-                <TampaThings />
+              <TampaThings />
+              <StPeteThings />
             </LowerBox>
           </ToDoPage>;
     }
