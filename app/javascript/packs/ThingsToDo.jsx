@@ -45,6 +45,7 @@ const LowerBox = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    font-family: 'Lato', sans-serif;
 `;
 
 
