@@ -33,7 +33,7 @@ class StPeteThings extends Component {
                 pieces by surrealist painter Salvador Dali this side of the
                 Atlantic. Bonus: it is within walking distance of both the
                 venue and the hotel. During the summer they screen cult
-                movies outside of it, and the might have holiday
+                movies outside of it, and they might have holiday
                 programming.
               </p>
             </div>
