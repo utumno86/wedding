@@ -15,13 +15,14 @@ const Navbar = styled.ul`
     color: #f6f6f6f6;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Grand Hotel', cursive;
     font-size: 15px;
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
     padding: 1em;
     text-decoration: none;
-    width: 100%;
 `;
 
 const NavListItem = styled.li`

@@ -2,33 +2,42 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 
 const PlacesToStayPage = styled.div`
+    background-color: #4928a0;
+    padding-bottom: 2em;
+`;
+
+const Hero = styled.div`
+    background-color: #4928a0;
+    height: 15vh;
     display: flex;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
 `;
 
 const Box = styled.div`
   align-items: center;
   background-color: #f6f6f6f6;
   border-radius: 5px;
-  border: 2px solid #4928a0;
+  border: 3px solid #4928a0;
   color: #4928a0;
   display: flex;
   flex-direction: column;
   font-family: "Lato", sans-serif;
   justify-content: center;
-  margin: 1em auto;
+  margin: 1em;
   padding: 1em;
-  opacity: 0.75;
-  width: 75%;
+  opacity: 0.85;
 `;
 
 const Hotel = styled.h2`
+    width: 100%;
+    text-align: center;
 `;
 
 const Header = styled.h1`
     font-family: 'Grand Hotel', cursive;
-    font-size: 3em;
+    font-size: 5rem;
+    color: #f6f6f6f6
 `;
 const HeaderWrapper = styled.div`
     display: flex;
@@ -52,12 +61,14 @@ class PlacesToStay extends Component {
     render() {
         return (
             <PlacesToStayPage>
-                <Box>
+                <Hero>
                     <HeaderWrapper>
                         <HeaderImage src="/assets/06.png" />
                         <Header>Places to stay</Header>
                         <HeaderImage2 src="/assets/06.png" />
                     </HeaderWrapper>
+                </Hero>
+                <Box>
                     <Hotel>
                         <a href="https://hollanderhotel.com/">The Hollander Hotel </a>
                     </Hotel>

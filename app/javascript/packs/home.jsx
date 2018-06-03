@@ -10,11 +10,9 @@ import Main from './Main'
 // background-repeat: repeat;
 // background-size: cover;
 const Home = styled.div`
-  background-color: #f6f6f6;
-  display: flex
-  margin: 0;
-  padding: 0;
 `;
+// background-color: #f6f6f6;
+// display: flex
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
