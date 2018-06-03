@@ -30,7 +30,6 @@ const Box = styled.div`
   justify-content: center;
   margin: 2em;
   padding: 1em;
-  opacity: 0.85;
 `;
 
 const Hotel = styled.h2`

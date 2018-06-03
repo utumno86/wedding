@@ -52,7 +52,6 @@ const Box = styled.div`
     font-family: "Lato", sans-serif;
     justify-content: center;
     margin: 1em;
-    opacity: 0.85;
     padding: 1em;
 `;
 
