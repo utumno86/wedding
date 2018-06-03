@@ -17,7 +17,6 @@ const Navbar = styled.ul`
     flex-direction: row;
     flex-wrap: wrap;
     font-family: 'Grand Hotel', cursive;
-    font-size: 15px;
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
@@ -28,6 +27,7 @@ const Navbar = styled.ul`
 const NavListItem = styled.li`
     text-decoration: none;
     color: #FFFFFFF
+    font-size: 2em;
 `;
 
 

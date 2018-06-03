@@ -44,12 +44,11 @@ class StPeteThings extends Component {
     const Mikey = <Name>Michael: </Name>;
 
     return <StPeteSection>
-        <HeaderWrapper>
+        {/* <HeaderWrapper>
           <HeaderImage src="/assets/06.png" />
             <StPete>St Pete Side</StPete>
           <HeaderImage2 src="/assets/06.png" />
-        </HeaderWrapper>
-        
+        </HeaderWrapper> */}
         <ol>
           <ListItem>
             <Thing>

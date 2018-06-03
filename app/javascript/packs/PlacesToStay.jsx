@@ -7,11 +7,15 @@ const PlacesToStayPage = styled.div`
 `;
 
 const Hero = styled.div`
-    background-color: #4928a0;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    background-color: #4928a0;
+    background-image: url("/assets/stpeteSkyline.jpg");
+    background-position: center;
+    background-repeat: no-repeat
+    background-size: cover;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
 `;
 
 const Box = styled.div`
@@ -24,26 +28,31 @@ const Box = styled.div`
   flex-direction: column;
   font-family: "Lato", sans-serif;
   justify-content: center;
-  margin: 1em;
+  margin: 2em;
   padding: 1em;
   opacity: 0.85;
 `;
 
 const Hotel = styled.h2`
-    width: 100%;
     text-align: center;
+    font-size: 2em;
 `;
 
 const Header = styled.h1`
     font-family: 'Grand Hotel', cursive;
     font-size: 5rem;
-    color: #f6f6f6f6
+    color: #f6f6f6f6;
+    background-image: url("/assets/greenbkg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.25em;
 `;
 const HeaderWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center
+    align-items: center;
 `;
 
 const HeaderImage = styled.img`
@@ -56,43 +65,67 @@ const HeaderImage2 = HeaderImage.extend`
     transform: scaleX(-1);
 `;
 
+const Place = styled.div`
+    maring-bottom: 2em;
+    padding: 1em;
+`;
+
 
 class PlacesToStay extends Component {
     render() {
         return (
             <PlacesToStayPage>
                 <Hero>
-                    <HeaderWrapper>
-                        <HeaderImage src="/assets/06.png" />
-                        <Header>Places to stay</Header>
-                        <HeaderImage2 src="/assets/06.png" />
-                    </HeaderWrapper>
+                    <Header>Places to stay</Header>
                 </Hero>
                 <Box>
-                    <Hotel>
-                        <a href="https://hollanderhotel.com/">The Hollander Hotel </a>
-                    </Hotel>
-                    <p>
-                        We have a small block of rooms at <a href="https://hollanderhotel.com/">The Hollander Hotel </a> in Downtown St Pete. Simply say you are with our wedding when you call 727-873-7900.  The Hollander is less than a 10 minute walk from the Shuffleboard Club and provides shuttles to Downtown St Pete.  We will be hosting a relaxed rehearsal dinner in one of the poolside Cabanas Friday night for all guests who can make it.  We will also be enjoying their Sunday Brunch and Bloody Mary bar the day after, so please join us if you can.  For those who are up for it, The Hollander also hosts poolside yoga on Sundays.  We won't be there, but the weather should be beautiful for it!
-                    </p>
-                    <Hotel>
-                        <a href="https://www.avalonstpetersburg.com/about/">The Avalon </a>
-                    </Hotel>
-                    <p>
-                        Next door to the Hollander is their sister hotel, the <a href="https://www.avalonstpetersburg.com/about/"> Avalon </a>.  They say it's a "hip place to lay your head" and we agree!  We stayed there for Liz's birthday last year and highly recommend it. If you stay at the Avalon you have access to the Hollander pool and shuttle service. 
-                    </p>
-                    <Hotel>
-                        <a href="http://www.marriott.com/hotels/travel/tpasd-courtyard-st.-petersburg-downtown/">The Courtyard - Marriot</a>
-                    </Hotel>
-                    <p>
-                        The Courtyard Marriot is across the street from the St Pete Shuffleboard Club.  We found it was a bit more expensive than The Hollander and Avalon, but we still recommend it.
-                    </p>
-                    <Hotel>
-                        Other Hotels and Trolley Service
-                    </Hotel>
-                    <p>
-                        There are many other hotels and bed and breakfasts in Downtown St Pete so feel free to look around.  We will be providing a trolley to help guests get to the Shuffleboard Club from the Hollander.  Let us know if you book elsewhere and we can see about arranging for the trolley to pick up guests from another location as well.  
-                    </p>
+                    <Place>
+                        <HeaderWrapper>
+                            <HeaderImage src="/assets/06.png" />
+                            <Hotel>
+                                <a href="https://hollanderhotel.com/">The Hollander Hotel </a>
+                            </Hotel>
+                            <HeaderImage2 src="/assets/06.png" />
+                        </HeaderWrapper>
+                        
+                        <p>
+                            We have a small block of rooms at <a href="https://hollanderhotel.com/">The Hollander Hotel </a> in Downtown St Pete. Simply say you are with our wedding when you call 727-873-7900.  The Hollander is less than a 10 minute walk from the Shuffleboard Club and provides shuttles to Downtown St Pete.  We will be hosting a relaxed rehearsal dinner in one of the poolside Cabanas Friday night for all guests who can make it.  We will also be enjoying their Sunday Brunch and Bloody Mary bar the day after, so please join us if you can.  For those who are up for it, The Hollander also hosts poolside yoga on Sundays.  We won't be there, but the weather should be beautiful for it!
+                        </p>
+                    </Place>
+                    <Place>
+                        <HeaderWrapper>
+                            <HeaderImage src="/assets/06.png" />
+                            <Hotel>
+                                <a href="https://www.avalonstpetersburg.com/about/">The Avalon </a>
+                            </Hotel>
+                            <HeaderImage2 src="/assets/06.png" />
+                        </HeaderWrapper>
+                        <p>
+                            Next door to the Hollander is their sister hotel, the <a href="https://www.avalonstpetersburg.com/about/"> Avalon </a>.  They say it's a "hip place to lay your head" and we agree!  We stayed there for Liz's birthday last year and highly recommend it. If you stay at the Avalon you have access to the Hollander pool and shuttle service. 
+                        </p>
+                    </Place>
+                    <Place>
+                        <HeaderWrapper>
+                            <HeaderImage src="/assets/06.png" />
+                            <Hotel>
+                                <a href="http://www.marriott.com/hotels/travel/tpasd-courtyard-st.-petersburg-downtown/">The Courtyard - Marriot</a>
+                            </Hotel>
+                            <HeaderImage2 src="/assets/06.png" />
+                        </HeaderWrapper>
+                        <p>
+                            The Courtyard Marriot is across the street from the St Pete Shuffleboard Club.  We found it was a bit more expensive than The Hollander and Avalon, but we still recommend it.
+                        </p>
+                    </Place>
+                    <Place>
+                        <HeaderWrapper>
+                            <HeaderImage src="/assets/06.png" />
+                            <Hotel>Other Hotels and Trolley Service</Hotel>
+                            <HeaderImage2 src="/assets/06.png" />
+                        </HeaderWrapper>
+                        <p>
+                            There are many other hotels and bed and breakfasts in Downtown St Pete so feel free to look around.  We will be providing a trolley to help guests get to the Shuffleboard Club from the Hollander.  Let us know if you book elsewhere and we can see about arranging for the trolley to pick up guests from another location as well.  
+                        </p>
+                    </Place>
                 </Box>
             </PlacesToStayPage>
         )

@@ -45,12 +45,11 @@ class TampaThings extends Component {
     const Mikey = <Name>Michael: </Name>;
 
     return <TampaSection>
-      <HeaderWrapper>
+      {/* <HeaderWrapper>
         <HeaderImage src="/assets/06.png" />
           <Tagline>Tampa Side</Tagline>
         <HeaderImage2 src="/assets/06.png" />
-      </HeaderWrapper>
-      
+      </HeaderWrapper> */}
       <ol>
         <ListItem>
           <div>

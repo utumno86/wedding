@@ -7,16 +7,23 @@ import FartherAfield from "./FartherAfield";
 
 const ToDoPage = styled.div`
     background-color: #4928a0;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 `;
 
 const Hero = styled.div`
-    background-color: #4928a0;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    background-color: #4928a0;
+    background-image: url("/assets/Tampa2.jpg");
+    background-position: top;
+    background-repeat: no-repeat
+    background-size: cover;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
 `;
+
 
 const Header = styled.h1`
     background-image: url("/assets/splash6.png");
@@ -59,33 +66,35 @@ const Tab = styled.h3`
     margin: 1em;
     font-family: "Grand Hotel", cursive;
     font-size: 2em;
+    background-image: ${({ isSelected }) => (isSelected ? 'url("/assets/splash6.png")' : null)};
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 `;
 
 class ThingsToDo extends Component {
     constructor() {
         super();
         this.state = {
-            selectedTab: 'Farther'
+            selectedTab: 'Tampa'
         }
-        // this.setSelectedTab = this.setSelectedTab.bind(this);
-        // this.renderTabs = this.renderTabs.bind(this);
+        this.setSelectedTab = this.setSelectedTab.bind(this);
+        this.renderTabs = this.renderTabs.bind(this);
     }
     
-    setSelectedTab() {
-        // const tabChanged = this.state.selectedTab !== selectedTab;
-        // if (tabChanged) {
-        //   this.setState({ selectedTab });
-        // }
-        console.log('clicked tab')
-    }
+    setSelectedTab(selectedTab) {
+        const tabChanged = this.state.selectedTab !== selectedTab;
+        if (tabChanged) {
+          this.setState({ selectedTab });
+        }
+      }
 
     renderTabs() {
         const { selectedTab } = this.state;
         switch (selectedTab) {
             case 'Tampa':
                 return (
-                    console.log('TampaThings')
-                    // <TampaThings />
+                    <TampaThings />
                 );
             case 'StPete':
                 return(
@@ -100,6 +109,8 @@ class ThingsToDo extends Component {
         }
     }
     render() {
+        const { selectedTab } = this.state;
+        console.log(selectedTab)
         return <ToDoPage>
             <Hero>
               <Header>
@@ -110,17 +121,23 @@ class ThingsToDo extends Component {
             <Box>
                 <TabBar>
                     <Tab 
-                        onClick={() => console.log(selectedTab === 'Tampa')}
-                        selectedTab={this.state.selectedTab}
+                        onClick={() => this.setSelectedTab('Tampa')}
+                        isSelected={selectedTab === 'Tampa'}
                     >
                         Tampa
                     </Tab>
                     <Tab
-                        onClick={() => setSelectedTab('StPete')}
+                        onClick={() => this.setSelectedTab('StPete')}
+                        isSelected={selectedTab === 'StPete'}
                     >
                         St. Pete
                     </Tab>
-                    <Tab onClick={() => setSelectedTab('Farther')}>Farther Afield</Tab>
+                    <Tab 
+                        onClick={() => this.setSelectedTab('Farther')}
+                        isSelected={selectedTab === 'Farther'}
+                    >
+                        Farther Afield
+                    </Tab>
                 </TabBar>
                 {this.renderTabs()}
             </Box>

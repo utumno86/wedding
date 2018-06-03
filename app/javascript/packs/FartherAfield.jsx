@@ -23,22 +23,6 @@ const Name = styled.span`
     font-family: "Grand Hotel", cursive;
 `;
 
-const HeaderWrapper = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
-`;
-
-const HeaderImage = styled.img`
-    width: 10%;
-    height: 10%;
-    padding: 0.5em;
-`;
-
-const HeaderImage2 = HeaderImage.extend`
-    transform: scaleX(-1);
-`;
 
 class FartherAfield extends Component {
   render() {
@@ -46,12 +30,6 @@ class FartherAfield extends Component {
     const Mikey = <Name>Michael</Name>;
 
     return <FartherSection>
-        <HeaderWrapper>
-          <HeaderImage src="/assets/06.png" />
-            <Farther>Farther Afield</Farther>
-          <HeaderImage2 src="/assets/06.png" />
-        </HeaderWrapper>
-        
         <ol>
           <ListItem>
             <Thing>
