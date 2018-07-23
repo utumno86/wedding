@@ -53,14 +53,14 @@ const Box = styled.div`
 
 const TabBar = styled.div`
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
 `;
 
 const Tab = styled.h3`
     margin: 1em;
     font-family: "Grand Hotel", cursive;
-    font-size: 3em;
+    font-size: 22px;
     background-image: ${({ isSelected }) => (isSelected ? 'url("/assets/splash6.png")' : null)};
     background-position: center;
     background-repeat: no-repeat;

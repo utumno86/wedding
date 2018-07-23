@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 
 const StPeteSection = styled.div`
-  justify-content: center;
-  margin: 1em;
+  margin-right: 20px;
 `;
 
 const StPete = styled.h1`
@@ -14,9 +13,7 @@ const StPete = styled.h1`
 
 const Thing = styled.h3``;
 
-const ListItem = styled.li`
-  margin: 1em;
-`;
+const ListItem = styled.li``;
 
 const Name = styled.span`
     font-family: "Grand Hotel", cursive;
