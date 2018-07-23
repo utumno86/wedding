@@ -2,22 +2,20 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 
 const RegistryPage = styled.div`
-    display: flex;
+    background-color: #4928a0;
 `;
 
 const Box = styled.div`
     align-items: center;
-    background-color: #ffffff;
+    background-color: #f6f6f6f6;
     border-radius: 5px;
-    border: 2px solid #4928A0;
-    color: #4928A0;
+    border: 3px solid #4928a0;
+    color: #4928a0;
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     justify-content: center;
-    margin: auto;
-    opacity: 0.5;
-    width: 70%;
+    height: 100vh;
 `;
 
 const Tagline = styled.h1`
@@ -34,7 +32,9 @@ class Registry extends Component {
     render() {
         return (
             <RegistryPage>
-                <h1>Registry</h1>
+                <Box>
+                    <Tagline>Registry information coming soon</Tagline>
+                </Box>
             </RegistryPage>
         )
     }

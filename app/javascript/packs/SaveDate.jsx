@@ -57,6 +57,7 @@ const Info = styled.p`
 
 const Section = styled.div`
     margin: 20px;
+    padding: 10px;
     justify-content: center;
 `;
 

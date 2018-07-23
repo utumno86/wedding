@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'ThingsToDo', to: 'pages#things'
   get 'PlacesToStay', to: 'pages#places'
+  get 'Registry', to: 'pages#registry'
 
   root to: 'home#index'
 
