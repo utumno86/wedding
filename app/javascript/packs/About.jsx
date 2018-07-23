@@ -3,8 +3,6 @@ import styled from 'styled-components'
 
 const AboutPage = styled.div`
     display: flex;
-    width: 100vw;
-    height: 100vh;
 `;
 
 const Box = styled.div`

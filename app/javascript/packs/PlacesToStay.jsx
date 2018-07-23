@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const PlacesToStayPage = styled.div`
     background-color: #4928a0;
-    padding-bottom: 2em;
 `;
 
 const Hero = styled.div`
@@ -14,7 +13,7 @@ const Hero = styled.div`
     background-repeat: no-repeat
     background-size: cover;
     display: flex;
-    height: 20vh;
+    height: 40vh;
     justify-content: center;
 `;
 
@@ -28,24 +27,22 @@ const Box = styled.div`
   flex-direction: column;
   font-family: "Lato", sans-serif;
   justify-content: center;
-  margin: 2em;
-  padding: 1em;
 `;
 
 const Hotel = styled.h2`
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
 `;
 
 const Header = styled.h1`
     font-family: 'Grand Hotel', cursive;
     font-size: 5rem;
-    color: #f6f6f6f6;
-    background-image: url("/assets/greenbkg.png");
+    color:  #4928a0;
+    background-image: url("/assets/splash6.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0.25em;
+    padding: 0.1em;
 `;
 const HeaderWrapper = styled.div`
     display: flex;
@@ -65,7 +62,7 @@ const HeaderImage2 = HeaderImage.extend`
 `;
 
 const Place = styled.div`
-    maring-bottom: 2em;
+    margin-bottom: 2em;
     padding: 1em;
 `;
 

@@ -15,19 +15,17 @@ const Navbar = styled.ul`
     color: #f6f6f6f6;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     font-family: 'Grand Hotel', cursive;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
-    margin: 0;
-    padding: 1em;
     text-decoration: none;
+    padding: 5px;
 `;
 
 const NavListItem = styled.li`
     text-decoration: none;
     color: #FFFFFFF
-    font-size: 2em;
+    font-size: 20px;
 `;
 
 
@@ -40,24 +38,24 @@ class Main extends Component {
                         <NavListItem>
                             <Link className='navListLink' to="/">Home</Link>
                         </NavListItem>
-                        <NavListItem>
+                        {/* <NavListItem>
                             <Link className='navListLink' to="/about">About Us</Link>
-                        </NavListItem>
+                        </NavListItem> */}
                         <NavListItem>
                             <Link className='navListLink' to="/PlacesToStay">Places to Stay</Link>
                         </NavListItem>
                         <NavListItem>
                             <Link className='navListLink' to="/ThingsToDo">Things to Do</Link>
                         </NavListItem>
-                        {/* <NavListItem>
+                        <NavListItem>
                             <Link className='navListLink' to="/Registry">Registry</Link>
-                        </NavListItem> */}
+                        </NavListItem>
                     </Navbar>
                     <Route exact path="/" component={SaveDate} />
                     <Route path="/about" component={About} />
                     <Route path="/PlacesToStay" component={PlacesToStay} /> 
                     <Route path ="/ThingsToDo" component={ThingsToDo} />
-                    {/* <Route exact path="/Registry" component={Registry} /> */}
+                    <Route exact path="/Registry" component={Registry} />
                 </div>
           </Router>
         );

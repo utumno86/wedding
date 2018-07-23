@@ -7,7 +7,6 @@ import FartherAfield from "./FartherAfield";
 
 const ToDoPage = styled.div`
     background-color: #4928a0;
-    padding-bottom: 1em;
 `;
 
 const Hero = styled.div`
@@ -18,10 +17,8 @@ const Hero = styled.div`
     background-repeat: no-repeat
     background-size: cover;
     display: flex;
-    height: 20vh;
+    height: 40vh;
     justify-content: center;
-    margin: 0;
-    padding: 1em;
 `;
 
 
@@ -35,6 +32,7 @@ const Header = styled.h1`
     font-size: 3em;
     text-align: center;
     margin-top: 2em;
+    padding: 0.1em;
 `;
 
 const HashTag = styled.span`
@@ -51,8 +49,6 @@ const Box = styled.div`
     flex-direction: column;
     font-family: "Lato", sans-serif;
     justify-content: center;
-    margin: 1em;
-    padding: 1em;
 `;
 
 const TabBar = styled.div`
@@ -64,7 +60,7 @@ const TabBar = styled.div`
 const Tab = styled.h3`
     margin: 1em;
     font-family: "Grand Hotel", cursive;
-    font-size: 2em;
+    font-size: 3em;
     background-image: ${({ isSelected }) => (isSelected ? 'url("/assets/splash6.png")' : null)};
     background-position: center;
     background-repeat: no-repeat;
