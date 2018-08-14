@@ -7,7 +7,9 @@ TODO
 - Set up "our story timeline"
 - Set up RSVP system
 - Set up mail server
-
+- finish filling out things to do section
+- set up registry
+- install favicon
 
 Ruby version - 2.4.1
 --------------------
