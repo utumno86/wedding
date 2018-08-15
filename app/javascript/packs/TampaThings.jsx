@@ -330,9 +330,125 @@ class TampaThings extends Component {
                 Angry Chair Brewing
               </a>
             </Thing>
-            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Angry+Chair+Brewing,+North+Florida+Avenue,+Tampa,+FL/@27.8892789,-82.629499,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c6a4011cbc47:0x9a16cf5b02bc8fc7!2m2!1d-82.4592887!2d28.0051338!3e0">26. miles</a></p>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Angry+Chair+Brewing,+North+Florida+Avenue,+Tampa,+FL/@27.8892789,-82.629499,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c6a4011cbc47:0x9a16cf5b02bc8fc7!2m2!1d-82.4592887!2d28.0051338!3e0">26.7 miles</a></p>
             <p>
               {Mikey} "Also in Seminole Heights, Angry Chair is friendly, has great beer, but is a tad small and has some parking issues. I'm a fan of their Two Pump Chump."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </div>
+        </ListItem>
+      </ol>
+      <h3>Bars</h3>
+      <ol>
+        <ListItem>
+          <div>
+            <Thing>
+              <a href="http://soho.macdintonsirishpub.com/">
+                MacDinton's
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/MacDinton's+Soho,+South+Howard+Avenue,+Tampa,+FL/@27.863032,-82.6422583,11.98z/data=!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c364e40e244d:0x1cccbfc7766d53e5!2m2!1d-82.483172!2d27.940559!3e0">22.2 miles</a></p>
+            <p>
+              {Mikey} "MacDinton's is the heart of the South Tampa bar district called Soho (and affectionately known by locals as Broho). If you like hanging out with frat boys and bachelor parties on their way to Tampa's strip clubs, Broho is your place. Also, MacDinton's is the sponsor of Liz's old Rugby team so there's a fair chance of running into Rugby girls too."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </div>
+        </ListItem>
+        <ListItem>
+          <div>
+            <Thing>
+              <a href="http://www.fourgreenfields.com/">
+                Four Green Fields
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Four+Green+Fields,+West+Platt+Street,+Tampa,+FL/@27.8647935,-82.6326693,12z/data=!4m15!4m14!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c48e32feec6b:0xbd7b6e401f32851f!2m2!1d-82.4616115!2d27.9418871!3e0!5i1">21.8 miles</a></p>
+            <p>
+              {Mikey} "My favorite bar in Tampa. Advertises as being the only authentic thatched roof pub in the United States. Espouses some pretty sketchy ideas about Irish independence. Good wings. Authentic grizzled old Irish dude singing sounds on Friday and Saturday night. All this is in reference to the original bar on Platt St. I've never been to the new one in Curtis Hixon Park."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </div>
+        </ListItem>
+        <ListItem>
+          <div>
+            <Thing>
+              <a href="http://independentbartampa.com/">
+                The Independent
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Independent+Bar+and+Cafe,+5016+N+Florida+Ave,+Tampa,+FL+33603/@27.8826933,-82.629499,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c41be7cdfe3d:0x6bff3b67539d46a3!2m2!1d-82.4596096!2d27.9919626!3e0">25.6 miles</a></p>
+            <p>
+              {Mikey} "A lot of the Seminole Heights restaurants double as bars, but the best loved bar in the neighborhood is the Indie. Great beer, great atmosphere, decent food."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </div>
+        </ListItem>
+        <ListItem>
+          <div>
+            <Thing>
+              <a href="https://lowryparcade.com/">
+                Lowry Parcade
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Lowry+Parcade,+West+Waters+Avenue,+Tampa,+FL/@27.89949,-82.699546,11z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c6ca4bd7f777:0x9262d2ac6f017c44!2m2!1d-82.4712711!2d28.0256623">28.6 miles</a></p>
+            <p>
+              {Mikey} "Also in Seminole Heights, is this sweet arcade bar. Drink beer and play pinball!"
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </div>
+        </ListItem>
+        <ListItem>
+          <div>
+            <Thing>
+              <a href="http://www.gasparspatio.com/">
+                Gaspar's Patio
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Gaspar's+Patio+Bar+%26+Grille,+North+56th+Street,+Temple+Terrace,+FL/@27.9050099,-82.6770331,10.94z/data=!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c626804d9e0b:0x53527567b25c3763!2m2!1d-82.3938292!2d28.0276113!3e0">31.4 miles</a></p>
+            <p>
+              {Mikey} "Our friendly neighborhood bar. When I was younger and singler I would close out the bar every Friday night. Live Music and Karaoke (in different parts of the bar) on Friday and Saturday night. Check out the liquor store next door, it's our favorite around."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </div>
+        </ListItem>
+        <ListItem>
+          <div>
+            <Thing>
+              <a href="http://www.gasparspatio.com/">
+                Gaspar's Patio
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Gaspar's+Patio+Bar+%26+Grille,+North+56th+Street,+Temple+Terrace,+FL/@27.9050099,-82.6770331,10.94z/data=!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c626804d9e0b:0x53527567b25c3763!2m2!1d-82.3938292!2d28.0276113!3e0">31.4 miles</a></p>
+            <p>
+              {Mikey} "Our friendly neighborhood bar. When I was younger and singler I would close out the bar every Friday night. Live Music and Karaoke (in different parts of the bar) on Friday and Saturday night. Check out the liquor store next door, it's our favorite around."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </div>
+        </ListItem>
+        <ListItem>
+          <div>
+            <Thing>
+              <a href="https://yborcityonline.com/">
+                Ybor City
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Columbia+Restaurant,+East+7th+Avenue,+Tampa,+FL/@27.86576,-82.6175384,11.95z/data=!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c4524dbbc7cf:0x3e9c07c7be9bec05!2m2!1d-82.4350771!2d27.959959!3e0">24.6 miles</a></p>
+            <p>
+              {Mikey} "The main bar district in Tampa is in historic Ybor City, centered around 7th avenue (affectionately called La Setima) between 22nd St. and about 13th St. It has bars for all tastes and ages, from cigar bars to karaoke to fetish nightclubs to LGBT bars to hipster gastropubs. A few recommendations: For the smoker, <a href="http://kingcoronacigars.com/">King Corona</a> cigar bar has a great location and excellent Sangria. <a href="https://yborcityonline.com/lions-den-cigar-lounge/">The Lion's Den</a> has comfy couches and amazing cocktails. (Also, my babrber is there, tucked into a small room in the corner of the bar.) For a kind of chill divy bar, I like <a href="http://www.tampabay.com/things-to-do/food/spirits/the-dirty-shame-a-classic-dive-with-ybor-city-attitude/2140125">The Dirty Shame</a> on the far edge of the Ybor strip. <a href="http://www.doubledeckertampa.com/">The Double Decker</a> for karaoke. <a href="http://samuraiblue.com/">Samurai Blue</a> for sushi.
+<a href="https://www.tbbc.beer/home"> Tampa Bay Brewing Company</a> for craft beer and burgers. <a href="https://www.thebricksybor.com/">The Bricks</a> for fancy cocktails and hispter gastropub fare. My favorite place in Ybor, (and where I used to take first dates), is <a href="http://www.cigarcitycider.com/">Cigar City Cider and Mead</a>. A bit off the beaten track, but pretty much the place in Tampa if you are into Cider or Mead."
             </p>
             <p>
               {Liz} ""
