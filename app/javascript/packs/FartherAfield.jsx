@@ -114,6 +114,9 @@ class FartherAfield extends Component {
             <p>
                 {Liz}: "It is an old school tourist trap.  A large store where you can buy shells and christmas decorations year round with a 'nature park,' mini golf, bumber boats and a zipline to make it more 'fun'.  If you pay to go into the nature park you can feed alligators and birds, but you can probably do that at <a href="https://www.gatorworldparks.com/">Gator World</a> in Orlando or at various rest stops and gas stations along the interstate.  However, if you are heading south towards Miami, Fort Myers or my parents house, you should check it out.  Especially the busted animatronics in the 'Pirate Museum.'  I think Michael's 'favorite' part was paying 50 cents to open an outhouse to see an animatronic sitting on the john and telling us about the history of Florida Crackers.  Oh yeah... it's a must see!"
             </p>
+            <p>
+              {Mikey}: "If we are going to start into gator-themed old school tourist traps, they are something of a fasciation of mine. Check out the giant cement gator at <a href="https://www.jungleadventures.com/">Jungle Adventures</a> and if you are in Kissimmee check out the gator statue in front of the now defunct <a href="http://gator-motel.besthotelskissimmee.com/en/">Gator Motel</a>."
+            </p>
           </ListItem>
         </ol>
       </FartherSection>;

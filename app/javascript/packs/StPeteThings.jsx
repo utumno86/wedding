@@ -48,7 +48,7 @@ class StPeteThings extends Component {
             </Thing>
             <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+Mirror+Lake+Drive+North,+Saint+Petersburg,+FL/The+Dali+Museum,+1+Dali+Blvd,+St.+Petersburg,+FL+33701/@27.8646345,-82.6303125,12z/data=!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e191ce90a0c9:0x273b948e64dcd305!2m2!1d-82.6314354!2d27.7659901">1.3 miles</a></p>
             <p>
-              {Mikey}  "I have no idea why it's here, but this is the biggest collection of pieces by surrealist painter Salvador Dali this side of the Atlantic."
+              {Mikey} "I have no idea why it's here, but this is the biggest collection of pieces by surrealist painter Salvador Dali this side of the Atlantic."
             </p>
             <p>
               {Liz} "It is within walking distance of both the
@@ -60,7 +60,7 @@ class StPeteThings extends Component {
           <ListItem>
             <Thing>
               <a href="https://www.visitstpeteclearwater.com/communities/clearwater-beach">
-                Clear Water Beach
+                Clearwater Beach
               </a>
             </Thing>
             <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+Mirror+Lake+Drive+North,+Saint+Petersburg,+FL/Clearwater+Beach,+Clearwater,+FL/@27.828638,-82.8477811,10.74z/data=!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e948cae1c0d5:0xa2a27a0b28eb9f12!2m2!1d-82.8270846!2d27.9775301">24.7 miles</a></p>
@@ -115,7 +115,7 @@ class StPeteThings extends Component {
               {Mikey} "If you're into bridges, and I know you are, this one's a doozie. A bit weird to tell you take a big bridge across the bay just to turn around and come back, but there's not much of interest on the other side and the view and the bridge are totally worth it."
             </p>
             <p>
-              {Liz} "The otherside of that bridge leads you to Bradenton where Mikey and I were met after one of my roller derby bouts.  There's some cool things to do there, so if you're interested in knowing more let me know."
+              {Liz} "The other side of that bridge leads you to Bradenton where Mikey and I were met after one of my roller derby bouts.  There's some cool things to do there, so if you're interested in knowing more let me know."
             </p>
           </ListItem>
         </ol>
