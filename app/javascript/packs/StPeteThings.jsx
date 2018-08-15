@@ -41,6 +41,7 @@ class StPeteThings extends Component {
     const Mikey = <Name>Michael: </Name>;
 
     return <StPeteSection>
+        <h3>Excursions</h3>
         <ol>
           <ListItem>
             <Thing>
@@ -116,6 +117,79 @@ class StPeteThings extends Component {
             </p>
             <p>
               {Liz} "The other side of that bridge leads you to Bradenton where Mikey and I were met after one of my roller derby bouts.  There's some cool things to do there, so if you're interested in knowing more let me know."
+            </p>
+          </ListItem>
+        </ol>
+        <h3>Restaurant</h3>
+        <ol>
+          <ListItem>
+            <Thing>
+              <a href="https://hollanderhotel.com/the-tap-room/">
+                The Tap Room At The Hollander Hotel
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Tap+Room+at+the+Hollander+Hotel,+421+4th+Ave+N,+St.+Petersburg,+FL+33701/@27.7758516,-82.6410194,18z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e1786cf61693:0x53981c5ce5b456cc!2m2!1d-82.6391171!2d27.7767796">0.3 miles</a></p>
+            <p>
+              {Mikey} "Part of the reason we suggest you book rooms at The Hollander/ The Avalon is that the Hollander Restaurant is solid and within walking distance of the wedding site."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </ListItem>
+          <ListItem>
+            <Thing>
+              <a href="https://www.ichicoroane.com/">
+                Ichicoro Ane
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Ichicoro+Ane,+1st+Avenue+South,+Saint+Petersburg,+FL/@27.7731295,-82.6410408,16.94z/data=!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e19ca165be59:0x211aa19994ab5774!2m2!1d-82.6364156!2d27.7701595">0.6 miles</a></p>
+            <p>
+              {Mikey} "Sweet ramen place in downtown St. Pete. As a bonus, the building it's in is the former location of The Iron Yard, the code school that Liz and I both went to."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </ListItem>
+          <ListItem>
+            <Thing>
+              <a href="http://www.no9burgers.com/">
+                Engine No. 9
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Engine+No.+9,+Doctor+Martin+Luther+King+Junior+Street+North,+Saint+Petersburg,+FL/@27.7734705,-82.6468954,16.01z/data=!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e180c1fa091f:0x5b32d7a4616936d!2m2!1d-82.6469799!2d27.7718291">0.6 miles</a></p>
+            <p>
+              {Mikey} "Really solid place for craft burgers."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </ListItem>
+          <ListItem>
+            <Thing>
+              <a href="http://themoonunderwater.com/">
+                The Moon Under Water
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/The+Moon+Under+Water,+Beach+Drive+Northeast,+Saint+Petersburg,+FL/@27.7756627,-82.6409145,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e17607255479:0xcf1eac14502f2b46!2m2!1d-82.6322671!2d27.7758476">0.7 miles</a></p>
+            <p>
+              {Mikey} "British-style pub with tremendous curry dishes along with more traditional British fare. Located in one of the big bayshore tourist destinations in downtown St. Pete."
+            </p>
+            <p>
+              {Liz} ""
+            </p>
+          </ListItem>
+          <ListItem>
+            <Thing>
+              <a href="http://www.redmesamercado.com/">
+                Red Mesa Mercado
+              </a>
+            </Thing>
+            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Red+Mesa+Mercado,+1st+Avenue+North,+Saint+Petersburg,+FL/@27.7736237,-82.6486994,16z/data=!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e22a394f625d:0x908ca7ec69a7fa56!2m2!1d-82.650074!2d27.771715">0.8 miles</a></p>
+            <p>
+              {Mikey} "Solid California-style Mexican food. Not to be confused with <a href="https://www.redmesacantina.com/">Red Mesa Cantina</a>, their Tex Mex and bar branch which neither Liz nor I are particularly fans of."
+            </p>
+            <p>
+              {Liz} ""
             </p>
           </ListItem>
         </ol>
