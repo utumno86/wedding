@@ -193,8 +193,53 @@ class StPeteThings extends Component {
           </p>
         </ListItem>
       </ol>
-    </StPeteSection>;
+      <h3>Breweries</h3>
+      <ol>
+        <ListItem>
+          <Thing>
+            <a href="http://3dbrewing.com/">
+              3 Daughters Brewing
+            </a>
+          </Thing>
+          <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/3+Daughters+Brewing,+22nd+Street+South,+Saint+Petersburg,+FL/@27.7710233,-82.6609067,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e2311081c6db:0x4d9834cf3055fece!2m2!1d-82.6627049!2d27.769051">1.8 miles</a></p>
+          <p>
+            {Mikey} "Probably the biggest brewery on the St. Pete side. I'm a particular fan of the Stern Line Stout."
+          </p>
+          <p>
+            {Liz} ""
+          </p>
+        </ListItem>
+        <ListItem>
+          <Thing>
+            <a href="http://greenbenchbrewing.com/">
+              Green Bench Brewing Company
+            </a>
+          </Thing>
+          <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Green+Bench+Brewing+Company,+Baum+Avenue+North,+Saint+Petersburg,+FL/@27.7734965,-82.6495736,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e22a3b9a8b5f:0x3e16cbbb2b528ccc!2m2!1d-82.6506442!2d27.7718639">0.9 miles</a></p>
+          <p>
+            {Mikey} "Good beer, pleasant outdoor setting, usually has live music. I quite like the Coffee Pot Bayou Stout."
+          </p>
+          <p>
+            {Liz} ""
+          </p>
+        </ListItem>
+        <ListItem>
+          <Thing>
+            <a href="http://stpetebrewingcompany.com/">
+              St. Pete Brewing Co.
+            </a>
+          </Thing>
+          <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/St.+Pete+Brewing+Company,+1st+Avenue+North,+Saint+Petersburg,+FL/@27.7736475,-82.6410121,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e183bcf23929:0xe93bfd1b861c1f4a!2m2!1d-82.6410144!2d27.7717862!3e0">0.4 miles</a></p>
+          <p>
+            {Mikey} "Was going to include Barley Mow Brewing on here but apparently it closed, so I thought I would add this one. Friendly convenient taproom that is close to the wedding venue."
+          </p>
+          <p>
+            {Liz} ""
+          </p>
+        </ListItem>
+      </ol>
+    </StPeteSection>
   }
 }
 
-export default StPeteThings;
+export default StPeteThings
