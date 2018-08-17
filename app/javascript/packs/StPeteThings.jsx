@@ -238,6 +238,64 @@ class StPeteThings extends Component {
           </p>
         </ListItem>
       </ol>
+      <h3>Bars</h3>
+      <ol>
+        <ListItem>
+          <Thing>
+            <a href="http://www.thealeandthewitch.com/">
+              The Ale and the Witch
+            </a>
+          </Thing>
+          <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/The+Ale+and+the+Witch,+2nd+Avenue+Northeast,+Saint+Petersburg,+FL/@27.774486,-82.6399356,16.94z/data=!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e19dbfaeccc3:0xacddb25a06208ec2!2m2!1d-82.633671!2d27.7739496">0.6 miles</a></p>
+          <p>
+            {Mikey} "Really cozy neighborhood bar, usually with live music, in the tourist part of the bayshore."
+          </p>
+          <p>
+            {Liz} ""
+          </p>
+        </ListItem>
+        <ListItem>
+          <Thing>
+            <a href="http://www.hopsprops.com/">
+              Hops and Props
+            </a>
+          </Thing>
+          <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Hops+and+Props,+2nd+Avenue+Northeast,+Saint+Petersburg,+FL/@27.7729196,-82.6387977,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e19e47598995:0x652e173bbefc3891!2m2!1d-82.6307138!2d27.7738844">1.2 miles</a></p>
+          <p>
+            {Mikey} "Great mostly outdoor bar with craft beer. On the pier!"
+          </p>
+          <p>
+            {Liz} ""
+          </p>
+        </ListItem>
+        <ListItem>
+          <Thing>
+            <a href="https://patch.com/florida/stpete/the-bends-st-pete-s-got-the-bends">
+              The Bends
+            </a>
+          </Thing>
+          <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+Mirror+Lake+Drive+North,+Saint+Petersburg,+FL/The+Bends,+919+1st+Ave+N,+St.+Petersburg,+FL+33705/@27.7737668,-82.6457736,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e18096bf6371:0x1980a9409a5bc1af!2m2!1d-82.6474217!2d27.7721566!3e0">0.6 miles</a></p>
+          <p>
+            {Mikey} "I haven't been there myself but my co-workers tell me its the classy dive bar to go to."
+          </p>
+          <p>
+            {Liz} ""
+          </p>
+        </ListItem>
+        <ListItem>
+          <Thing>
+            <a href="http://www.visitflorida.com/en-us/cities/st-petersburg/central-avenue-st-petersburg.html">
+              Central Avenue
+            </a>
+          </Thing>
+          <p>
+            {Mikey} "There's a pretty intense bar/restaurant district in downtown St. Pete along Central Avenue, between roughly 2nd St and 6th St. Within walking distance of the hotel. You can wave to my office in the big blue skyscraper on Central and 4rth St. <a href="http://www.mandarinhide.com/">The Mandarin Hide</a> is an upscale bar with amazing (though pricey) cocktails. Next door, <a href="https://www.tripadvisor.com/Restaurant_Review-g34607-d4192494-Reviews-Mastry_s_Bar_Grill-St_Petersburg_Florida.html">Mastery's</a> is an excellent cheap dive bar. 2 doors down, <a href="http://fivebucksdrinkery.com/">Five Bucks Drinkery</a> is a great cheap bar with good food for (you guessed it) 5 bucks a dish. This was our main hangout when The Iron Yard was located at The Station House. Across the street, <a href="http://themillrestaurants.com/">The Mill</a> is a great place for upscale tapas and cocktails. A couple of blocks down Central from there, there are a string of excellent Asian food restaurants, <a href="http://asiepanasian.com/">Asie</a> for sushi, <a href="http://lavfusion.com/">La V</a> for Vietnamese, and a block further <a href="http://www.9bangkok.info/index.html">9Bangkok Thai</a> for Thai. A block further down there's more hipster stores and bars. Check out <a href="https://www.yelp.com/biz/emerald-bar-st-petersburg">The Emerald</a> for my boss's favorite dive bar. Check out the <a href="https://maplestreetbiscuits.com/">Maple Street Biscuit Company</a> if you like biscuits and <a href="https://www.daddykool.com/">Daddy Kool Records</a> if you are in to vintage record stores."
+          </p>
+          <p>
+            {Liz} ""
+          </p>
+        </ListItem>
+      </ol>
     </StPeteSection>
   }
 }
