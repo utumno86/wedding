@@ -27,6 +27,8 @@ const NavListItem = styled.li`
     font-size: 20px;
 `
 
+const Path = process.env.NODE_ENV === 'development' ? 'localhost:3000' : 'mikeandliz.date'
+
 class Main extends Component {
   render () {
     return (
@@ -43,7 +45,7 @@ class Main extends Component {
               <Link className='navListLink' to="/ThingsToDo">Things to Do</Link>
             </NavListItem>
             <NavListItem>
-              <a href="http://localhost:3000/guest" className='navListLink'>RSVP</a>
+              <a href={'http://' + Path + '/guest'} className='navListLink'>RSVP</a>
             </NavListItem>
             <NavListItem>
               <Link className='navListLink' to="/Registry">Registry</Link>

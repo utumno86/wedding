@@ -105,7 +105,6 @@ class ThingsToDo extends Component {
     }
     render() {
         const { selectedTab } = this.state;
-        console.log(selectedTab)
         return <ToDoPage>
             <Hero>
               <Header>
