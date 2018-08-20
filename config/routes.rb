@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get 'PlacesToStay', to: 'pages#places'
   get 'Registry', to: 'pages#registry'
 
+  get 'guest', to: 'guest#index'
+
   root to: 'home#index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
