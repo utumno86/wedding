@@ -1,1 +1,5 @@
-<h1>GUEST RSVP!!!!<h2>
+<%= simple_form_for guest_path(@guest) do |f| %>
+  <%= f.label :username %>
+  <%= f.input_field :username %>
+  <%= f.submit 'Save' %>
+<% end %>
