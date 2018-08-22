@@ -8,7 +8,8 @@ Rails.application.routes.draw do
   get 'PlacesToStay', to: 'pages#places'
   get 'Registry', to: 'pages#registry'
 
-  get 'guest', to: 'guest#index'
+  get 'guest', to: 'guest#new'
+  post 'guest', to: 'guest#create'
 
   root to: 'home#index'
 
