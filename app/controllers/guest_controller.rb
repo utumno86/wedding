@@ -7,9 +7,7 @@ class GuestController < ApplicationController
   def create
     @guest = Guest.new(guest_params)
     @guest.invite_sent = true
-    
-    puts "+++++++"
-    puts @guest.inspect
+
     if @guest.save
       flash[:success] = 'You have successfully RSVPed'
       redirect_to root_path
@@ -22,8 +20,6 @@ class GuestController < ApplicationController
   private
 
   def guest_params
-    puts "++++++++"
-    puts params
     params['/guest'].permit(:first_name, :last_name, :email_address, :address, :city, :state, :zipcode, :rsvp_number)
   end
 end
