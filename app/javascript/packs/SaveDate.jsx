@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
 
-const HomePage = styled.div``;
-
 const SaveDateHeader = styled.div`
     background-image: url("/assets/couple-bw1.jpg");
     background-position: center;
@@ -45,27 +43,18 @@ const Info = styled.p`
     font-size: 20px;
 `;
 
-const footnote = styled.p`
-
+const Footnote = styled.p`
+    margin: 1em;
+    margin-top: 3em;
 `;
 
 const Section = styled.div`
+    text-align: center;
+    margin: 1em;
+    margin-top: 3em;
     @media (max-width: 599px) {
         width: 100%;
-        margin: 1em;
-        padding: 1em;
-    }
-`;
-
-const Row = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    @media (max-width: 599px) {
-        flex-direction: row;
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
 `;
 
@@ -79,41 +68,34 @@ class SaveDate extends Component {
                     <Tagline>There's Magic in the Night</Tagline>
                     <Names>Liz and Michael</Names>
                     <Date>December 22, 2018</Date>
-                    <Row>
-
-                        <Section>
-                            <Title>Location:</Title>
-                            <p> 
-                                <a href="http://stpeteshuffle.com/">
-                                    St. Pete ShuffleBoard Club
-                                </a>
-                            </p>
-                            <p>
-                                559 Mirror Lake Dr. North
-                            </p>
-                            <p>
-                                St. Petersburg, FL 33701
-                            </p>
-                            <p>
-                                Dress: Garden party
-                            </p>
-                        </Section>
-                        <Section>
-                            <Title>Schedule:</Title>
-                            <p> Arrival: 3:00pm</p>
-                            <p>Ceremony: 3:30pm</p>
-                            <p>Cocktail Hour*: 4-5PM</p>
-                            <p>Taco Bar: 5:00pm</p>
-                            <p>Shuffleboard and dancing till 10pm</p>
-                        </Section>
-                    </Row>
-                    <Row>
-                        <Section>
-                            <Info>
-                                *We will be providing both alcoholic and non-alcoholic drinks, but the laws involving the Shuffleboard Club allow you to BYOB if you prefer. 
-                            </Info>
-                        </Section>
-                    </Row>
+                    <Section>
+                        <Title>Location:</Title>
+                        <Info> 
+                            <a href="http://stpeteshuffle.com/">
+                                St. Pete ShuffleBoard Club
+                            </a>
+                        </Info>
+                        <Info>
+                            559 Mirror Lake Dr. North
+                        </Info>
+                        <Info>
+                            St. Petersburg, FL 33701
+                        </Info>
+                        <Info>
+                            Dress: Garden party
+                        </Info>
+                    </Section>
+                    <Section>
+                        <Title>Schedule:</Title>
+                        <Info> Arrival: 3:00pm</Info>
+                        <Info>Ceremony: 3:30pm</Info>
+                        <Info>Cocktail Hour*: 4-5PM</Info>
+                        <Info>Taco Bar: 5:00pm</Info>
+                        <Info>Shuffleboard and dancing till 10pm</Info>
+                    </Section>
+                    <Footnote>
+                        *We will be providing both alcoholic and non-alcoholic drinks, but the laws involving the Shuffleboard Club allow you to BYOB if you prefer. 
+                    </Footnote>
                 </Box>
 
             </div>

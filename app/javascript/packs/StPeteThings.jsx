@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 
 const StPeteSection = styled.div`
-  margin-right: 20px;
+  margin: 1em;
 `;
 
 const StPete = styled.h1`
@@ -18,22 +18,22 @@ const ListItem = styled.li``;
 const Name = styled.span`
     font-family: "Grand Hotel", cursive;
 `;
-const HeaderWrapper = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
-`;
+// const HeaderWrapper = styled.div`
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center
+// `;
 
-const HeaderImage = styled.img`
-    width: 10%;
-    height: 10%;
-    padding: 0.5em;
-`;
+// const HeaderImage = styled.img`
+//     width: 10%;
+//     height: 10%;
+//     padding: 0.5em;
+// `;
 
-const HeaderImage2 = HeaderImage.extend`
-    transform: scaleX(-1);
-`;
+// const HeaderImage2 = HeaderImage.extend`
+//     transform: scaleX(-1);
+// `;
 
 class StPeteThings extends Component {
   render() {
