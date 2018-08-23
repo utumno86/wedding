@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const TampaSection = styled.div`
-  margin-right: 20px;
+  margin: 1em;
 `;
 
-const Tagline = styled.h1`
-  font-family: "Grand Hotel", cursive;
-  font-size: 2.5em;
-  text-align: center;
-`;
+// const Tagline = styled.h1`
+//   font-family: "Grand Hotel", cursive;
+//   font-size: 2.5em;
+//   text-align: center;
+// `;
 
 const Thing = styled.h3``;
 
@@ -26,15 +26,15 @@ const HeaderWrapper = styled.div`
     align-items: center
 `;
 
-const HeaderImage = styled.img`
-    width: 10%;
-    height: 10%;
-    padding: 0.5em;
-`;
+// const HeaderImage = styled.img`
+//     width: 10%;
+//     height: 10%;
+//     padding: 0.5em;
+// `;
 
-const HeaderImage2 = HeaderImage.extend`
-    transform: scaleX(-1);
-`;
+// const HeaderImage2 = HeaderImage.extend`
+//     transform: scaleX(-1);
+// `;
 
 class TampaThings extends Component {
   render() {
@@ -42,11 +42,7 @@ class TampaThings extends Component {
     const Mikey = <Name>Michael: </Name>;
 
     return <TampaSection>
-      {/* <HeaderWrapper>
-        <HeaderImage src="/assets/06.png" />
-          <Tagline>Tampa Side</Tagline>
-        <HeaderImage2 src="/assets/06.png" />
-      </HeaderWrapper> */}
+
       <h3> Excursions </h3>
       <ol>
         <ListItem>
