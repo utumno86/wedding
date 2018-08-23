@@ -1,107 +1,110 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
 
-const HomePage = styled.div`
-    background-color: #4928a0;
-    font-size: 20px;
-`;
+const HomePage = styled.div``;
 
-const SaveDatePage = styled.div`
+const SaveDateHeader = styled.div`
     background-image: url("/assets/couple-bw1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
-    display: flex;
+
 `;
 
 const Box = styled.div`
-    align-items: center;
     background-color: #f6f6f6f6;
     border-radius: 5px;
     border: 3px solid #4928a0;
     color: #4928a0;
-    font-family: "Lato", sans-serif;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
 `;
 
 const Tagline = styled.h1`
-    text-align: center;
-    font-size: 50px;
     opacity: 1;
     font-family: 'Grand Hotel', cursive;
+    text-align: center;
 `;
 
 const Date = styled.h2`
-    font-size: 40px;
     text-align: center;
     font-family: "Lato", sans-serif;
 `;
 
 const Names = styled.h1`
-    font-size: 50px;
     text-align: center;
     font-family: 'Grand Hotel', cursive;
 `;
 
-const Title = styled.h3`
-    font-size: 30px;
+const Title = styled.h2`
     font-family: 'Grand Hotel', cursive;
 
 `;
+
 const Info = styled.p`
     font-size: 20px;
 `;
 
+const footnote = styled.p`
+
+`;
+
 const Section = styled.div`
-    margin: 20px;
-    padding: 10px;
-    justify-content: center;
+    @media (max-width: 599px) {
+        width: 100%;
+        margin: 1em;
+        padding: 1em;
+    }
 `;
 
 const Row = styled.div`
-    flex-direction: row;
-    flex-wrap: wrap;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    @media (max-width: 599px) {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
 `;
 
 
 class SaveDate extends Component {
     render() {
         return (
-            <HomePage>
-                <SaveDatePage />
+            <div className="homePage">
+                <SaveDateHeader />
                 <Box>
                     <Tagline>There's Magic in the Night</Tagline>
                     <Names>Liz and Michael</Names>
                     <Date>December 22, 2018</Date>
                     <Row>
+
                         <Section>
                             <Title>Location:</Title>
-                            <Info> 
+                            <p> 
                                 <a href="http://stpeteshuffle.com/">
                                     St. Pete ShuffleBoard Club
                                 </a>
-                            </Info>
-                            <Info>
+                            </p>
+                            <p>
                                 559 Mirror Lake Dr. North
-                            </Info>
-                            <Info>
+                            </p>
+                            <p>
                                 St. Petersburg, FL 33701
-                            </Info>
-                            <Info>
+                            </p>
+                            <p>
                                 Dress: Garden party
-                            </Info>
+                            </p>
                         </Section>
                         <Section>
                             <Title>Schedule:</Title>
-                            <Info> Arrival: 3:00pm</Info>
-                            <Info>Ceremony: 3:30pm</Info>
-                            <Info>Cocktail Hour*: 4-5PM</Info>
-                            <Info>Taco Bar: 5:00pm</Info>
-                            <Info>Shuffleboard and dancing till 10pm</Info>
+                            <p> Arrival: 3:00pm</p>
+                            <p>Ceremony: 3:30pm</p>
+                            <p>Cocktail Hour*: 4-5PM</p>
+                            <p>Taco Bar: 5:00pm</p>
+                            <p>Shuffleboard and dancing till 10pm</p>
                         </Section>
                     </Row>
                     <Row>
@@ -113,7 +116,7 @@ class SaveDate extends Component {
                     </Row>
                 </Box>
 
-            </HomePage>
+            </div>
         )
     }
 }
