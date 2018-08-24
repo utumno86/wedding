@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 
 const FartherSection = styled.div`
-  justify-content: center;
-  margin-right: 20px;
+  margin: 1em;
 `;
 
 const Farther = styled.h1`
