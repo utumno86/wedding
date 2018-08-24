@@ -1,7 +1,14 @@
 <%= simple_form_for guest_path(@guest) do |f| %>
   <%= f.label :email_address %>
   <%= f.input_field :email_address %>
+  <br>
+  <%= f.label :first_name %>
+  <%= f.input_field :first_name %>
+  <br>
+  <%= f.label :last_name %>
+  <%= f.input_field :last_name %>
+  <br>
   <%= f.submit 'Save' %>
 <% end %>
 
-<%= link_to 'Go Back To Main Page', root_path %>
+<%= link_to 'Go Back To Main Page', root_path, method: :get %>
