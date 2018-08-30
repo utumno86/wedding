@@ -14,7 +14,7 @@ class GuestController < ApplicationController
       redirect_to root_path
     else
       flash[:danger] = 'There was an error with the RSVP'
-      redirect_to new_guest_path
+      redirect_to guest_path
     end
   end
 
