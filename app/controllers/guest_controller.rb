@@ -7,6 +7,7 @@ class GuestController < ApplicationController
   def create
     @guest = Guest.new(guest_params)
     @guest.invite_sent = true
+    @guest.rsvp = true
 
     if @guest.save
       flash[:success] = 'You have successfully RSVPed'

@@ -8,6 +8,22 @@
   <%= f.label :last_name %>
   <%= f.input_field :last_name %>
   <br>
+  <%= f.label :address %>
+  <%= f.input_field :address %>
+  <br>
+  <%= f.label :city %>
+  <%= f.input_field :city %>
+  <br>
+  <%= f.label :state %>
+  <%= f.input_field :state %>
+  <br>
+  <%= f.label :zipcode %>
+  <%= f.input_field :zipcode %>
+  <br>
+  <p>Please enter the number of people in your party (including yourself) that will be coming to wedding</p>
+  <%= f.label :rsvp_number %>
+  <%= f.input_field :rsvp_number, as: :integer %>
+  <br>
   <%= f.submit 'Save' %>
 <% end %>
 
