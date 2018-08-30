@@ -13,7 +13,11 @@ class GuestController < ApplicationController
       flash[:success] = 'You have successfully RSVPed'
       redirect_to root_path
     else
-      flash[:danger] = 'There was an error with the RSVP'
+      if @guest.errors.any?
+        flash[:danger] = 'There was an error with the RSVP: ' + @guest.errors.full_messages.join(',')
+      else
+        flash[:danger] = 'There was an error with the RSVP'
+      end
       redirect_to guest_path
     end
   end
