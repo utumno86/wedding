@@ -7,7 +7,6 @@ const SaveDateHeader = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
-
 `;
 
 const Box = styled.div`
