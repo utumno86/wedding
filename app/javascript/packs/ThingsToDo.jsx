@@ -59,7 +59,7 @@ const TabBar = styled.div`
 
 const Tab = styled.h3`
     margin: 1em;
-    font-size: 25px;
+    font-size: 40px;
     font-family: "Grand Hotel", cursive;
     background-image: ${({ isSelected }) => (isSelected ? 'url("/assets/splash6.png")' : null)};
     background-position: center;
