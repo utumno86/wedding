@@ -121,7 +121,7 @@ class TampaThings extends Component {
               {Mikey} "One of the most famous restaurants in Tampa, and one of our perennial birthday dinner destinations. A fantastic experience, melt in your mouth steak, extensive wine cellar (allegedly the largest in North America), and the Harry Waugh Dessert Room (to which you are escorted after dinner) is a goddamn national treasure. Be prepared to drop a couple hundred bucks on dinner, though."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "Expect to shell out a lot for this, but it's absolutely the best steak I've ever had.  My vegetarian co-worker even agrees!"
             </p>
           </div>
         </ListItem>
@@ -137,7 +137,7 @@ class TampaThings extends Component {
               {Mikey} "Located in historic Cuban/Italian community Ybor City and founded in 1905, The Columbia is allegedly the oldest restaurant in Florida. There are a couple of Columbia branches, but accept no substitute for the real one on 7th Avenue in Ybor. The building and atmosphere is awesome and don't miss out on the live Flamenco dancers on weeknights. The Columbia has always been better on atmosphere than on actual food, you can't go wrong with the 1911 Salad and the Bambino steak. Alternately they have a wide array of Spanish/Cuban cuisine. For more stuff to do in Ybor, check out "Bars" section."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "Make sure to order a Mojito, the 1905 salad and I recommend the Palomilla steak.  You can find "better" Cuban food elsewhere, but you won't find a better atmosphere."
             </p>
           </div>
         </ListItem>
@@ -153,7 +153,7 @@ class TampaThings extends Component {
               {Mikey} "The Columbia makes up for mediocre food with atmosphere, but La Terisita is the opposite, with probably the best Cuban food in town. They have a ritzy-ish sit down restaurant but the real action is around the back entrance where they offer diner-style seating and cafeteria service of the same food at a discounted price."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "I think the Palmoilla is better at The Columbia, but I think theEmpanizado and Milanesa is better at La Teresita.  Definitely worth the trek for some good Cuban."
             </p>
           </div>
         </ListItem>
@@ -169,7 +169,7 @@ class TampaThings extends Component {
               {Mikey} "Vying with Ella's (below), for area's best bougie brunch spot, Datz provides excellent southern style breakfast and dinner dishes as well as excellent cocktails. Check out sister store <a href="https://bestdoughnuts.com/">Dough</a> next door if you are into doughnuts."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "Go here to live out all your "Man vs Food" style dreams.  They have a burger with mac n' cheese "buns" and damn good cocktails."
             </p>
           </div>
         </ListItem>
@@ -185,7 +185,7 @@ class TampaThings extends Component {
               {Mikey} "Located in the middle of downtown Tampa, Eddie and Sam's is probably the best pizza in town."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "They say they import the water from New York, and any New Yorker will say it's the water that makes the Pizza.  I've only been there once and it was good pizza, whether or not they actually import their water and if it's as good as NY water, is up to somene else to decide."
             </p>
           </div>
         </ListItem>
@@ -199,9 +199,6 @@ class TampaThings extends Component {
             <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/China+Yuan,+8502+N+Armenia+Ave+%231a,+Tampa,+FL+33604/@27.906773,-82.699546,11z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c1376c5795b3:0x28b90c65d625d642!2m2!1d-82.4846457!2d28.0279307">29.5 miles</a></p>
             <p>
               {Mikey} "Located in the small Tampa Chinatown at the corner of Waters and Armenia, China Yuan is the only reasonably authentic Chinese restaurant in Tampa. Cantonese cuisine, seafood and Dim Sum."
-            </p>
-            <p>
-              {Liz} ""
             </p>
           </div>
         </ListItem>
@@ -217,7 +214,7 @@ class TampaThings extends Component {
               {Mikey} "Closer to our neck of the woods, Taco Sun is our favorite cheap Mexican place around. Have not ever been to the original Taco Son in St. Petersburg (and it has a complicated relationship with other local chain Taco Bus), but the one on 56th street is great."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "Not the fastest, but possibly the most delicious tacos or burritos you'll get in Tampa. If you can, get there early enough for breakfast!"
             </p>
           </div>
         </ListItem>
@@ -233,7 +230,7 @@ class TampaThings extends Component {
               {Mikey} "Super good German food and beer. Also at the bottom end of New Tampa, another suburban neighborhood."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "I've only eaten there after drinking quite a bit of beer, but I remember enjoying it!"
             </p>
           </div>
         </ListItem>
@@ -249,7 +246,7 @@ class TampaThings extends Component {
               {Mikey} "Serial killer free since 2017, Seminole Heights is the largest up-and-coming hipster gentrification neighborhood in Tampa. As a result, it has a great collection of food and drink options and will be popping up in this list repeatedly. Get your boozy sunday brunch on with BBQ and bloody marys with an actual pork rib in them at <a href="http://www.ellasfolkartcafe.com/">Ellas Cafe</a>. The rib bloody mary is a real selling point, but actually they have amazing cocktails, excellent food, and live music all the time, so they are a good choice for any time. Get hearty farm-to-table style meals at <a href="http://thetamparefinery.com/">The Refinery</a>. Get weird seasonal tapas at <a href="http://www.roosterandthetill.com/">The Rooster and the Till</a>. Get gastrobup burgers, truffle fries, cheese plates, and I'm told, excellent gluten free options at <a href="https://www.mermaidtaverntampa.com/">The Mermaid Tavern</a>. If you are into greasy spoon diners (and believe me, you should be) you can't beat <a href="https://threecoinsdiner.net/">Three Coins Diner</a>. For desert, check out local indie ice cream parlor <a href="http://revicecream.com/index.php">Revolution Ice Cream</a>."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "It's the up and coming hipster location, so if you want to get boougie definitely check it out.  I also reccomend Trip's Diner (the original is in St Pete).  If you want to shake off all the good food you've been eating, check out <a href="https://www.lvlupdance.com/">Level Up Dance Studio</a>."
             </p>
           </div>
         </ListItem>
@@ -264,7 +261,7 @@ class TampaThings extends Component {
               {Mikey} "One of Tampa's claims to fame is as the originator city of the Cuban sandwich. There's a lot of weirdness in Cuban Sandwich culture that we don't need to get into here, but you should really have one if you are going to be in town a few days. Perennial favorites on "Best of" lists are <a href="https://brocatossandwich.com/">Brocato's Sandwich Shop</a> and <a href="http://www.thecubansandwichshop.com/">The Cuban Sandwich Shop</a>. If you are up in our neck of the woods, <a href="https://www.rubenscubancafe.com/">Ruben's Cubans</a> is a good choice. If you are in Downtown St. Pete, <a href="http://eatatbodega.com/">Bodega on Central</a> is a good choice. If you are looking for my favorite Cuban sandwich place in town, check out the <a href="http://www.interbaymeatmarket.com/">Interbay Meat Market</a> down on MacDill. And if you are looking for the best cuban sandwiches around and willing to make a serious drive and eat outside at picnic tables, I haven't found any better than the <a href="https://www.thestrawberryhut.com/">Strawberry Hut</a> in Plant City."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "I second all of Michael's suggestions, but I'll add <a href="http://www.tampasbestcuban.com/">The Floridan</a> on Kennedy, and their "angry" Cuban."
             </p>
           </div>
         </ListItem>
@@ -282,9 +279,6 @@ class TampaThings extends Component {
             <p>
               {Mikey} "Founded by the son of Tampa strip club magnate <a href="https://en.wikipedia.org/wiki/Joe_Redner">Joe Redner</a>, Cigar City is the biggest and probably best of the Bay Area breweries that popped up like mushrooms as craft breweries became a thing. They have a rotating cast of beer on tap, but my favorite of their standbys is the Brown Maduro. The taproom usually has a food truck. Even though Ybor is often referred to as "Cigar City" Cigar City Brewery is not located in Ybor; it's on Spruce Street by the airport. To make matters more confusing, there is a Cigar City Meadery that <i>is</i> in Ybor. <i>Shrug</i>."
             </p>
-            <p>
-              {Liz} ""
-            </p>
           </div>
         </ListItem>
         <ListItem>
@@ -299,7 +293,7 @@ class TampaThings extends Component {
               {Mikey} "Downtownish, cozy taproom, the Deja Moo is probably my second favorite local beer."
             </p>
             <p>
-              {Liz} ""
+              {Liz} "Check out <a href="https://www.garagistemeadery.com/">Garagiste Meadery</a> around the corner.
             </p>
           </div>
         </ListItem>
@@ -314,9 +308,6 @@ class TampaThings extends Component {
             <p>
               {Mikey} "Also Downtownish, but a bit bigger than some of the others mentioned here. Haven for lovers of dark beer. Fan of the Coppertail Nightswim."
             </p>
-            <p>
-              {Liz} ""
-            </p>
           </div>
         </ListItem>
         <ListItem>
@@ -329,9 +320,6 @@ class TampaThings extends Component {
             <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Angry+Chair+Brewing,+North+Florida+Avenue,+Tampa,+FL/@27.8892789,-82.629499,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c6a4011cbc47:0x9a16cf5b02bc8fc7!2m2!1d-82.4592887!2d28.0051338!3e0">26.7 miles</a></p>
             <p>
               {Mikey} "Also in Seminole Heights, Angry Chair is friendly, has great beer, but is a tad small and has some parking issues. I'm a fan of their Two Pump Chump."
-            </p>
-            <p>
-              {Liz} ""
             </p>
           </div>
         </ListItem>
@@ -349,9 +337,6 @@ class TampaThings extends Component {
             <p>
               {Mikey} "MacDinton's is the heart of the South Tampa bar district called Soho (and affectionately known by locals as Broho). If you like hanging out with frat boys and bachelor parties on their way to Tampa's strip clubs, Broho is your place. Also, MacDinton's is the sponsor of Liz's old Rugby team so there's a fair chance of running into Rugby girls too."
             </p>
-            <p>
-              {Liz} ""
-            </p>
           </div>
         </ListItem>
         <ListItem>
@@ -364,9 +349,6 @@ class TampaThings extends Component {
             <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Four+Green+Fields,+West+Platt+Street,+Tampa,+FL/@27.8647935,-82.6326693,12z/data=!4m15!4m14!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c48e32feec6b:0xbd7b6e401f32851f!2m2!1d-82.4616115!2d27.9418871!3e0!5i1">21.8 miles</a></p>
             <p>
               {Mikey} "My favorite bar in Tampa. Advertises as being the only authentic thatched roof pub in the United States. Espouses some pretty sketchy ideas about Irish independence. Good wings. Authentic grizzled old Irish dude singing sounds on Friday and Saturday night. All this is in reference to the original bar on Platt St. I've never been to the new one in Curtis Hixon Park."
-            </p>
-            <p>
-              {Liz} ""
             </p>
           </div>
         </ListItem>
@@ -381,9 +363,6 @@ class TampaThings extends Component {
             <p>
               {Mikey} "A lot of the Seminole Heights restaurants double as bars, but the best loved bar in the neighborhood is the Indie. Great beer, great atmosphere, decent food."
             </p>
-            <p>
-              {Liz} ""
-            </p>
           </div>
         </ListItem>
         <ListItem>
@@ -397,9 +376,6 @@ class TampaThings extends Component {
             <p>
               {Mikey} "Also in Seminole Heights, is this sweet arcade bar. Drink beer and play pinball!"
             </p>
-            <p>
-              {Liz} ""
-            </p>
           </div>
         </ListItem>
         <ListItem>
@@ -412,25 +388,6 @@ class TampaThings extends Component {
             <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Gaspar's+Patio+Bar+%26+Grille,+North+56th+Street,+Temple+Terrace,+FL/@27.9050099,-82.6770331,10.94z/data=!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c626804d9e0b:0x53527567b25c3763!2m2!1d-82.3938292!2d28.0276113!3e0">31.4 miles</a></p>
             <p>
               {Mikey} "Our friendly neighborhood bar. When I was younger and singler I would close out the bar every Friday night. Live Music and Karaoke (in different parts of the bar) on Friday and Saturday night. Check out the liquor store next door, it's our favorite around."
-            </p>
-            <p>
-              {Liz} ""
-            </p>
-          </div>
-        </ListItem>
-        <ListItem>
-          <div>
-            <Thing>
-              <a href="http://www.gasparspatio.com/">
-                Gaspar's Patio
-              </a>
-            </Thing>
-            <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Gaspar's+Patio+Bar+%26+Grille,+North+56th+Street,+Temple+Terrace,+FL/@27.9050099,-82.6770331,10.94z/data=!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2c626804d9e0b:0x53527567b25c3763!2m2!1d-82.3938292!2d28.0276113!3e0">31.4 miles</a></p>
-            <p>
-              {Mikey} "Our friendly neighborhood bar. When I was younger and singler I would close out the bar every Friday night. Live Music and Karaoke (in different parts of the bar) on Friday and Saturday night. Check out the liquor store next door, it's our favorite around."
-            </p>
-            <p>
-              {Liz} ""
             </p>
           </div>
         </ListItem>
@@ -445,9 +402,6 @@ class TampaThings extends Component {
             <p>
               {Mikey} "The main bar district in Tampa is in historic Ybor City, centered around 7th avenue (affectionately called La Setima) between 22nd St. and about 13th St. It has bars for all tastes and ages, from cigar bars to karaoke to fetish nightclubs to LGBT bars to hipster gastropubs. A few recommendations: For the smoker, <a href="http://kingcoronacigars.com/">King Corona</a> cigar bar has a great location and excellent Sangria. <a href="https://yborcityonline.com/lions-den-cigar-lounge/">The Lion's Den</a> has comfy couches and amazing cocktails. (Also, my babrber is there, tucked into a small room in the corner of the bar.) For a kind of chill divy bar, I like <a href="http://www.tampabay.com/things-to-do/food/spirits/the-dirty-shame-a-classic-dive-with-ybor-city-attitude/2140125">The Dirty Shame</a> on the far edge of the Ybor strip. <a href="http://www.doubledeckertampa.com/">The Double Decker</a> for karaoke. <a href="http://samuraiblue.com/">Samurai Blue</a> for sushi.
 <a href="https://www.tbbc.beer/home"> Tampa Bay Brewing Company</a> for craft beer and burgers. <a href="https://www.thebricksybor.com/">The Bricks</a> for fancy cocktails and hispter gastropub fare. My favorite place in Ybor, (and where I used to take first dates), is <a href="http://www.cigarcitycider.com/">Cigar City Cider and Mead</a>. A bit off the beaten track, but pretty much the place in Tampa if you are into Cider or Mead."
-            </p>
-            <p>
-              {Liz} ""
             </p>
           </div>
         </ListItem>

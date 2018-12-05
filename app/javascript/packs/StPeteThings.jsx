@@ -132,9 +132,6 @@ class StPeteThings extends Component {
           <p>
             {Mikey} "Part of the reason we suggest you book rooms at The Hollander/ The Avalon is that the Hollander Restaurant is solid and within walking distance of the wedding site."
           </p>
-          <p>
-            {Liz} ""
-          </p>
         </ListItem>
         <ListItem>
           <Thing>
@@ -146,9 +143,6 @@ class StPeteThings extends Component {
           <p>
             {Mikey} "Sweet ramen place in downtown St. Pete. As a bonus, the building it's in is the former location of The Iron Yard, the code school that Liz and I both went to."
           </p>
-          <p>
-            {Liz} ""
-          </p>
         </ListItem>
         <ListItem>
           <Thing>
@@ -159,9 +153,6 @@ class StPeteThings extends Component {
           <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Engine+No.+9,+Doctor+Martin+Luther+King+Junior+Street+North,+Saint+Petersburg,+FL/@27.7734705,-82.6468954,16.01z/data=!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e180c1fa091f:0x5b32d7a4616936d!2m2!1d-82.6469799!2d27.7718291">0.6 miles</a></p>
           <p>
             {Mikey} "Really solid place for craft burgers."
-          </p>
-          <p>
-            {Liz} ""
           </p>
         </ListItem>
         <ListItem>
@@ -175,7 +166,7 @@ class StPeteThings extends Component {
             {Mikey} "British-style pub with tremendous curry dishes along with more traditional British fare. Located in one of the big bayshore tourist destinations in downtown St. Pete."
           </p>
           <p>
-            {Liz} ""
+            {Liz} "People will say this is the best Indian food in town.  It's not, it's the best British food in town, but you can get chips and curry so what more do you want?"
           </p>
         </ListItem>
         <ListItem>
@@ -189,7 +180,7 @@ class StPeteThings extends Component {
             {Mikey} "Solid California-style Mexican food. Not to be confused with <a href="https://www.redmesacantina.com/">Red Mesa Cantina</a>, their Tex Mex and bar branch which neither Liz nor I are particularly fans of."
           </p>
           <p>
-            {Liz} ""
+            {Liz} "DO NOT GO TO RED MESA CANTINA."
           </p>
         </ListItem>
       </ol>
@@ -206,7 +197,7 @@ class StPeteThings extends Component {
             {Mikey} "Probably the biggest brewery on the St. Pete side. I'm a particular fan of the Stern Line Stout."
           </p>
           <p>
-            {Liz} ""
+            {Liz} "The beach blonde is good.  All the St Pete Beers are super hoppy, so you might want to stick with the Tampa side if you aren't looking for some beer with your hops."
           </p>
         </ListItem>
         <ListItem>
@@ -219,9 +210,6 @@ class StPeteThings extends Component {
           <p>
             {Mikey} "Good beer, pleasant outdoor setting, usually has live music. I quite like the Coffee Pot Bayou Stout."
           </p>
-          <p>
-            {Liz} ""
-          </p>
         </ListItem>
         <ListItem>
           <Thing>
@@ -232,9 +220,6 @@ class StPeteThings extends Component {
           <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/St.+Pete+Brewing+Company,+1st+Avenue+North,+Saint+Petersburg,+FL/@27.7736475,-82.6410121,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e183bcf23929:0xe93bfd1b861c1f4a!2m2!1d-82.6410144!2d27.7717862!3e0">0.4 miles</a></p>
           <p>
             {Mikey} "Was going to include Barley Mow Brewing on here but apparently it closed, so I thought I would add this one. Friendly convenient taproom that is close to the wedding venue."
-          </p>
-          <p>
-            {Liz} ""
           </p>
         </ListItem>
       </ol>
@@ -250,9 +235,6 @@ class StPeteThings extends Component {
           <p>
             {Mikey} "Really cozy neighborhood bar, usually with live music, in the tourist part of the bayshore."
           </p>
-          <p>
-            {Liz} ""
-          </p>
         </ListItem>
         <ListItem>
           <Thing>
@@ -263,9 +245,6 @@ class StPeteThings extends Component {
           <p>Distance from Shuffleboard Club: <a href="https://www.google.com/maps/dir/St+Petersburg+Shuffleboard+Clb,+559+Mirror+Lake+Dr+N,+St.+Petersburg,+FL+33701/Hops+and+Props,+2nd+Avenue+Northeast,+Saint+Petersburg,+FL/@27.7729196,-82.6387977,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88c2e1820b13a015:0xc143aab8b6bcbb90!2m2!1d-82.6412416!2d27.7755088!1m5!1m1!1s0x88c2e19e47598995:0x652e173bbefc3891!2m2!1d-82.6307138!2d27.7738844">1.2 miles</a></p>
           <p>
             {Mikey} "Great mostly outdoor bar with craft beer. On the pier!"
-          </p>
-          <p>
-            {Liz} ""
           </p>
         </ListItem>
         <ListItem>
@@ -278,9 +257,6 @@ class StPeteThings extends Component {
           <p>
             {Mikey} "I haven't been there myself but my co-workers tell me its the classy dive bar to go to."
           </p>
-          <p>
-            {Liz} ""
-          </p>
         </ListItem>
         <ListItem>
           <Thing>
@@ -290,9 +266,6 @@ class StPeteThings extends Component {
           </Thing>
           <p>
             {Mikey} "There's a pretty intense bar/restaurant district in downtown St. Pete along Central Avenue, between roughly 2nd St and 6th St. Within walking distance of the hotel. You can wave to my office in the big blue skyscraper on Central and 4rth St. <a href="http://www.mandarinhide.com/">The Mandarin Hide</a> is an upscale bar with amazing (though pricey) cocktails. Next door, <a href="https://www.tripadvisor.com/Restaurant_Review-g34607-d4192494-Reviews-Mastry_s_Bar_Grill-St_Petersburg_Florida.html">Mastery's</a> is an excellent cheap dive bar. 2 doors down, <a href="http://fivebucksdrinkery.com/">Five Bucks Drinkery</a> is a great cheap bar with good food for (you guessed it) 5 bucks a dish. This was our main hangout when The Iron Yard was located at The Station House. Across the street, <a href="http://themillrestaurants.com/">The Mill</a> is a great place for upscale tapas and cocktails. A couple of blocks down Central from there, there are a string of excellent Asian food restaurants, <a href="http://asiepanasian.com/">Asie</a> for sushi, <a href="http://lavfusion.com/">La V</a> for Vietnamese, and a block further <a href="http://www.9bangkok.info/index.html">9Bangkok Thai</a> for Thai. A block further down there's more hipster stores and bars. Check out <a href="https://www.yelp.com/biz/emerald-bar-st-petersburg">The Emerald</a> for my boss's favorite dive bar. Check out the <a href="https://maplestreetbiscuits.com/">Maple Street Biscuit Company</a> if you like biscuits and <a href="https://www.daddykool.com/">Daddy Kool Records</a> if you are in to vintage record stores."
-          </p>
-          <p>
-            {Liz} ""
           </p>
         </ListItem>
       </ol>
